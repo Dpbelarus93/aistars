@@ -1,0 +1,51 @@
+MOSCOW METRO SURREALISM - PROMPT VARIATIONS COLLECTION
+
+=== ВЕРСИЯ 1: MIDJOURNEY OPTIMIZED ===
+Three confident people in expensive vintage coats walking through ornate Moscow metro station, surreal floating books and educational materials, dramatic underground lighting, hyperrealistic facial details, old money aristocratic style, bustling crowd background, Soviet-era marble architecture, ethereal atmospheric particles, photorealistic but dreamlike, 8k detail, cinematic composition --ar 16:9 --v 6 --style raw
+
+=== ВЕРСИЯ 2: DALL-E 3 OPTIMIZED ===
+Hyperrealistic photograph of three elegantly dressed people confidently walking through a grand Moscow metro station. They wear expensive vintage coats and suits in old aristocratic style. The scene shows perfect facial detail with confident expressions. Surreal elements include floating books and educational materials around them. The metro station features ornate Soviet architecture with marble columns and chandeliers. Bustling crowd of diverse people in background. Dramatic underground lighting creates cinematic atmosphere. Photorealistic but with dreamlike surreal qualities.
+
+=== ВЕРСИЯ 3: STABLE DIFFUSION OPTIMIZED ===
+masterpiece, best quality, ultra-detailed, photorealistic, three people walking confidently, expensive vintage clothing, old money style, Moscow metro station, ornate Soviet architecture, marble columns, dramatic lighting, floating books, educational materials, surreal elements, bustling crowd, perfect facial features, confident expression, hyperrealistic skin texture, cinematic composition, 8k resolution, professional photography
+
+=== ВЕРСИЯ 4: КОРОТКАЯ КОНЦЕНТРИРОВАННАЯ ===
+Moscow metro, three confident wealthy people, vintage expensive coats, surreal floating books, perfect faces, dramatic lighting, crowded station, Soviet architecture, photorealistic surrealism
+
+=== ВЕРСИЯ 5: LEONARDO AI OPTIMIZED ===
+Ultra-realistic photography, three elegantly dressed people walking through Moscow metro station, confident expressions, expensive vintage clothing suggesting old money wealth, ornate Soviet-era architecture with marble and chandeliers, surreal floating educational materials and books, dramatic underground lighting, bustling crowd of diverse people, hyperdetailed facial features, cinematic composition, photorealistic with surreal elements seamlessly integrated
+
+=== ВЕРСИЯ 6: РУССКАЯ ВЕРСИЯ ===
+Три уверенных человека в дорогих винтажных пальто идут по роскошной станции московского метро, сюрреалистические летающие книги и образовательные материалы, драматическое подземное освещение, гиперреалистичные детали лица, стиль старых денег, толпа людей на фоне, советская мраморная архитектура, эфирные атмосферные частицы, фотореалистично но сказочно
+
+=== NEGATIVE PROMPTS (ЧТО ИСКЛЮЧИТЬ) ===
+- blurry faces, low quality, cartoon style, anime style, unrealistic proportions, poor lighting, empty metro station, casual clothing, modern clothing, plastic surgery look, artificial faces, oversaturated colors, poor composition, amateur photography, bad anatomy
+
+=== ТЕХНИЧЕСКИЕ ПАРАМЕТРЫ ===
+- Aspect Ratio: 16:9 или 3:2 для кинематографического эффекта
+- Resolution: 8K предпочтительно, минимум 4K
+- Style: Photorealistic with surreal elements
+- Lighting: Dramatic underground lighting, cinema quality
+- Color Grading: Natural with enhanced contrast
+- Focus: Sharp focus on main figures, soft background
+
+=== ДОПОЛНИТЕЛЬНЫЕ ВАРИАЦИИ СЦЕНЫ ===
+
+ВАРИАЦИЯ A - ДВИЖЕНИЕ ВЛЕВО:
+[основной промпт] + "walking from right to left, dynamic movement"
+
+ВАРИАЦИЯ B - ЦЕНТРАЛЬНАЯ КОМПОЗИЦИЯ:
+[основной промпт] + "centered composition, symmetrical framing"
+
+ВАРИАЦИЯ C - КРУПНЫЙ ПЛАН:
+[основной промпт] + "close-up composition focusing on faces and upper bodies"
+
+ВАРИАЦИЯ D - ШИРОКИЙ ПЛАН:
+[основной промпт] + "wide shot showing full metro station architecture"
+
+=== СОВЕТЫ ПО ГЕНЕРАЦИИ ===
+1. Начните с короткой версии, потом добавляйте детали
+2. Используйте разные aspect ratio для разных композиций
+3. Экспериментируйте с lighting keywords (dramatic, cinematic, atmospheric)
+4. Добавляйте weight к важным элементам: (confident expression:1.3)
+5. Используйте negative prompts для исключения нежелательных элементов 

@@ -1,0 +1,21 @@
+ДЕТАЛИЗИРОВАННЫЕ ЛИЦА - ЛУЧШИЕ ПРОМПТЫ
+
+=== ОСНОВНОЙ ПОРТРЕТНЫЙ ПРОМПТ ===
+
+Professional portrait in automotive setting, Canon EOS R5, 85mm portrait lens, close detailed shot. PERFECT FACIAL FEATURES with natural skin texture showing realistic pores and subtle imperfections, sharp intelligent eyes with natural moisture, confident expression, individual hair strands visible. Person wearing beautiful Italian designer clothing sitting in vintage convertible positioned on Norwegian fjord cliff. Portrait lighting mixed with golden hour illumination, f/2.8 for facial sharpness, dramatic Nordic landscape softly blurred in background, maintaining perfect human detail as primary focus over scenery.
+
+=== ЧИСТЫЙ ПОРТРЕТ ===
+
+Professional portrait photograph, Canon EOS R5, 85mm lens, close-up shot. Elegant person with perfect facial features, natural skin texture showing pores and subtle imperfections, sharp intelligent eyes with natural moisture and realistic reflections, individual hair strands visible with natural texture, confident expression. Italian designer clothing visible in frame - premium silk shirt. Natural lighting, golden hour illumination, photorealistic skin detail, f/2.8 depth of field, professional retouching maintaining authentic qualities.
+
+=== ТЕХНИЧЕСКИЕ ДЕТАЛИ ДЛЯ ЛИЦ ===
+
+- Линзы: 85mm, 105mm portrait lens
+- Диафрагма: f/1.4, f/2.8, shallow depth of field  
+- Освещение: portrait lighting setup, beauty lighting
+- Детали: visible pores, eye reflections, individual eyelashes
+- Приоритет: описание лица В НАЧАЛЕ промпта
+
+=== НЕГАТИВЫ ===
+
+blurry face, distant shot, wide angle distortion, poor facial detail, plastic skin, artificial features, low resolution face, face in shadow, unclear eyes 

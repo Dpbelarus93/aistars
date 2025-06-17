@@ -1,0 +1,13 @@
+ИДЕАЛЬНЫЙ ПРОМПТ ДЛЯ НОРВЕЖСКИХ ФЬОРДОВ
+
+=== ОСНОВНОЙ ПРОМПТ (ГОТОВ К ИСПОЛЬЗОВАНИЮ) ===
+
+Professional RAW photograph taken with Canon EOS R5, 35mm lens, elevated angle shot from slightly above. Elegant person sitting relaxed in a pristine vintage convertible positioned on a dramatic grass-covered cliff edge overlooking spectacular Norwegian fjords. The subject wears beautiful Italian designer branded clothing - premium silk and linen blend shirt from luxury Italian fashion house, perfectly tailored designer shorts, expensive leather shoes from high-end Italian brands, everything showcasing effortless Italian luxury fashion aesthetic. The vintage cabriolet is a meticulously restored classic in perfect condition with polished chrome details and rich cognac leather interior, top down revealing elegant styling. Breathtaking Norwegian fjord landscape spreads dramatically below: deep sapphire blue waters reflecting towering vertical cliffs, emerald green grass covering rolling hills, distant snow-capped peaks, massive white clouds creating natural light patterns across the vast Nordic sky. Golden hour sunset lighting bathes the entire scene in warm, natural tones with the sun breaking through clouds creating dramatic reflections on the fjord water surface. Wide cinematic composition balances the human subject in the convertible with the overwhelming natural grandeur of the landscape. Crystal clear Scandinavian air, natural depth of field with sharp focus on subject and beautifully soft background mountains. Shot during magic hour with perfect natural lighting creating authentic skin tones and colors. Professional automotive photography meets landscape photography masterpiece. Camera settings: f/8 for landscape sharpness, ISO 200, natural color grading mimicking Fujifilm Velvia film stock for enhanced but natural saturation.
+
+=== УПРОЩЁННАЯ ВЕРСИЯ (ДЛЯ БЫСТРОГО ТЕСТА) ===
+
+Professional photograph from elevated angle, person in luxury vintage convertible on Norwegian fjord cliff at golden hour sunset, dramatic ocean and mountain landscape, beautiful Italian designer branded clothing with expensive leather shoes, wide cinematic composition showing both subject and breathtaking Nordic scenery, Canon camera quality, natural lighting
+
+=== NEGATIVE PROMPT ===
+
+flip-flops, sandals, cheap shoes, fast fashion, artificial lighting, oversaturated colors, tourist photography, modern casual wear, crowded scene, bad weather, artificial poses, smartphone quality, digital art look, unrealistic proportions, blurry background, poor composition 

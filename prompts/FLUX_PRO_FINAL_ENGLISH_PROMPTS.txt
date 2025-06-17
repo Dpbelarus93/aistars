@@ -1,0 +1,66 @@
+FLUX PRO МАСТЕР-ПРОМПТЫ (АНГЛИЙСКИЕ) - МОСКОВСКОЕ МЕТРО
+
+=== ОСНОВНОЙ ПРОМПТ (РЕКОМЕНДУЕМЫЙ) ===
+
+Professional RAW photograph taken with Canon EOS R5, 85mm lens, natural lighting mixed with dramatic metro illumination. Three elegantly dressed people walking confidently through an ornate Moscow metro station. The main subject wears an expensive tailored charcoal wool coat over a perfectly fitted suit, displaying old aristocratic money aesthetic. Confident, commanding facial expression with perfect skin detail showing natural pores and subtle imperfections. Sharp, intelligent eyes with natural moisture and realistic reflections. Individual hair strands visible with natural texture and movement. The Moscow metro station features authentic Soviet-era grandeur: polished marble columns with intricate veining, crystal chandeliers casting warm ambient light, ornate bronze details, and classical architectural elements. A diverse crowd of commuters and students fills the background, creating natural depth and authentic urban atmosphere. Surreal elements seamlessly integrated: vintage leather-bound books and educational papers floating ethereally around the scene, glowing softly as if suspended in time. Old banknotes drift gently through the air with subtle transparency. Camera settings: f/2.8 aperture for natural depth of field, ISO 800 for grain texture, 1/125 shutter speed. Color grading mimics Kodak Portra 400 film stock with warm undertones and natural color reproduction.
+
+=== КОРОТКАЯ ВЕРСИЯ (ДЛЯ БЫСТРОГО ТЕСТА) ===
+
+Professional photograph of three confident people in expensive coats walking through ornate Moscow metro station, natural lighting, photorealistic faces, surreal floating books, documentary photography style, Canon camera quality
+
+=== КРУПНЫЙ ПЛАН ===
+
+Professional portrait of confident person in expensive tailored coat in Moscow metro, natural skin texture, perfect facial details, dramatic underground lighting, surreal floating books in background, photojournalistic style
+
+=== ШИРОКИЙ ПЛАН ===
+
+Wide angle documentary photograph of three elegant figures walking through grand Moscow metro station architecture, natural crowd in background, floating books surreal elements, professional photography with natural colors
+
+=== МАКСИМАЛЬНЫЙ СЮРРЕАЛИЗМ ===
+
+Professional RAW photograph, three wealthy aristocrats in vintage coats walking through opulent Moscow metro station, hyperrealistic faces with perfect skin detail, floating antique books and educational symbols glowing ethereally around them, vintage banknotes drifting through air, dramatic underground lighting, ornate Soviet architecture with marble and chandeliers, bustling crowd background, photorealistic surrealism, cinema quality, Canon EOS R5
+
+=== КОНКРЕТНАЯ СТАНЦИЯ МЕТРО ===
+
+Professional photograph of three confident people in expensive vintage coats walking through Komsomolskaya Moscow metro station, baroque ceiling with mosaics, ornate chandeliers, marble columns, natural crowd, floating books surreal elements, dramatic lighting, photorealistic style
+
+=== АЛЬТЕРНАТИВНЫЙ СТИЛЬ ===
+
+Cinematic documentary photograph of three sophisticated individuals in luxury overcoats moving through Moscow's underground palace, Soviet-era architectural grandeur, floating educational materials creating magical realism, natural skin textures, confident expressions, professional lighting setup, film photography aesthetic
+
+=== NEGATIVE PROMPTS ===
+
+plastic skin, artificial faces, oversaturated colors, digital painting look, anime style, cartoon features, perfect symmetry, sterile lighting, empty station, modern clothing, casual wear, smartphone photography quality, Instagram filter effects, HDR processing, unrealistic proportions, floating people, obvious photoshop effects
+
+=== ТЕХНИЧЕСКИЕ НАСТРОЙКИ ===
+
+- Aspect Ratio: 16:9 (для кинематографа) или 3:2 (для портрета)
+- Style: photorealistic, documentary
+- Quality: premium/high
+- Focus: natural photography, authentic human features
+
+=== ДОПОЛНИТЕЛЬНЫЕ МОДИФИКАТОРЫ ===
+
+Для движения слева направо: + "walking from left to right, dynamic movement"
+Для винтажного вида: + "vintage 1970s Soviet atmosphere, film photography aesthetic"
+Для больше сюрреализма: + "enhanced surreal elements, floating educational symbols, mystical atmosphere"
+Для конкретного времени: + "golden hour lighting equivalent, warm atmospheric glow"
+
+=== СОВЕТЫ ПО ИСПОЛЬЗОВАНИЮ ===
+
+1. Начинайте с короткой версии, потом расширяйте
+2. Если лица получаются плохо - добавьте "perfect facial features, detailed skin texture"
+3. Для лучшего освещения: "natural lighting mixed with practical metro lights"
+4. Для аутентичности: упомините конкретные станции (Komsomolskaya, Mayakovskaya)
+5. Камеры работают лучше чем просто "professional" - Canon EOS R5, Fujifilm GFX
+
+=== ЭКСПЕРИМЕНТАЛЬНЫЕ ВАРИАНТЫ ===
+
+ВИНТАЖНЫЙ ФИЛЬМ:
+"35mm film photograph shot on Kodak Portra 400, three elegant people in expensive coats, Moscow metro station, natural grain, vintage colors, floating books, realistic lighting"
+
+ЧЁРНО-БЕЛЫЙ:
+"Black and white documentary photograph, three confident figures in luxury coats, Moscow metro architecture, dramatic shadows, floating books surreal elements, Leica camera quality"
+
+МАГИЧЕСКИЙ РЕАЛИЗМ:
+"Magical realism photograph, three aristocratic figures walking through Moscow metro, floating antique books with ethereal glow, natural lighting, hyperrealistic faces, seamless fantasy elements" 

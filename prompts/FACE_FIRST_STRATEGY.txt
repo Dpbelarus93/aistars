@@ -1,0 +1,57 @@
+СТРАТЕГИЯ "ЛИЦО СНАЧАЛА" ДЛЯ НЕЙРОСЕТЕЙ
+
+=== ПРОБЛЕМА ===
+Когда промпт сложный (человек + машина + пейзаж), нейросеть фокусируется на общей композиции, 
+а лицо получается размытым и далёким.
+
+=== РЕШЕНИЕ 1: ПОЭТАПНАЯ ГЕНЕРАЦИЯ ===
+
+ШАГ 1 - СНАЧАЛА ТОЛЬКО ПОРТРЕТ:
+```
+Professional portrait photograph, Canon EOS R5, 85mm lens, close-up shot. Elegant person with perfect facial features, natural skin texture showing pores and subtle imperfections, sharp intelligent eyes with natural moisture and realistic reflections, individual hair strands visible with natural texture, confident expression. Italian designer clothing visible in frame - premium silk shirt. Natural lighting, golden hour illumination, photorealistic skin detail, f/2.8 depth of field, professional retouching maintaining authentic qualities.
+```
+
+ШАГ 2 - ПОТОМ РАСШИРИТЬ СЦЕНУ (IMG2IMG):
+Используешь полученный портрет как базу и добавляешь:
+```
+Expand scene: person sitting in vintage convertible on Norwegian fjord cliff, dramatic landscape background, wide cinematic composition, maintaining perfect facial details from original image
+```
+
+=== РЕШЕНИЕ 2: ПРИНУДИТЕЛЬНЫЙ ФОКУС НА ЛИЦЕ ===
+
+В основном промпте делаешь лицо приоритетным:
+```
+**CLOSE-UP DETAILED FACE**, professional portrait quality facial features, **sharp eyes and skin texture**, person sitting in vintage convertible on Norwegian cliff, dramatic fjord landscape background, **maintaining perfect facial detail as priority**, wide composition
+```
+
+=== РЕШЕНИЕ 3: ПОРТРЕТНЫЕ ТЕХНИКИ В ПОЛНОЙ СЦЕНЕ ===
+
+```
+Professional automotive photography with portrait photography focus, Canon EOS R5, 85mm lens equivalent focal length for portrait quality. DETAILED CLOSE-UP of elegant person's face and upper body sitting in vintage convertible, perfect skin texture with natural pores and imperfections, sharp intelligent eyes, natural hair detail, confident expression wearing Italian designer clothing. Norwegian fjord landscape visible in background but secondary to subject detail. Golden hour lighting optimized for portrait photography, f/2.8 aperture for subject focus, background naturally blurred, cinematic composition prioritizing human subject over landscape.
+```
+
+=== ТЕХНИЧЕСКИЕ ТРЮКИ ===
+
+1. **Используй портретные линзы**: "85mm lens", "105mm portrait lens"
+2. **Малая глубина резкости**: "f/1.4", "f/2.8", "shallow depth of field"
+3. **Приоритет лица**: Ставь описание лица В НАЧАЛЕ промпта
+4. **Портретное освещение**: "portrait lighting setup", "beauty lighting"
+5. **Конкретные детали**: "visible pores", "eye reflections", "individual eyelashes"
+
+=== НЕГАТИВЫ ДЛЯ ЛИЦА ===
+```
+blurry face, distant shot, wide angle distortion, poor facial detail, plastic skin, artificial features, low resolution face, face in shadow, unclear eyes
+```
+
+=== WORKFLOW РЕКОМЕНДАЦИЯ ===
+
+1. Генерируй сначала ТОЛЬКО портрет с идеальным лицом
+2. Используй Face Restoration AI (Real-ESRGAN, CodeFormer) если нужно
+3. Потом делай img2img с расширением сцены
+4. Или используй inpainting для добавления фона
+
+=== ПРОМПТ ДЛЯ ТВОЕЙ СЦЕНЫ С ФОКУСОМ НА ЛИЦЕ ===
+
+```
+Professional portrait in automotive setting, Canon EOS R5, 85mm portrait lens, close detailed shot. PERFECT FACIAL FEATURES with natural skin texture showing realistic pores and subtle imperfections, sharp intelligent eyes with natural moisture, confident expression, individual hair strands visible. Person wearing beautiful Italian designer clothing sitting in vintage convertible positioned on Norwegian fjord cliff. Portrait lighting mixed with golden hour illumination, f/2.8 for facial sharpness, dramatic Nordic landscape softly blurred in background, maintaining perfect human detail as primary focus over scenery.
+``` 

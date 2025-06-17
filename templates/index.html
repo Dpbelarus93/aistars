@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Photo Batch Processor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .glass { backdrop-filter: blur(10px); background: rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body class="min-h-screen gradient-bg">
+    <div x-data="photoBatchProcessor()" class="container mx-auto px-4 py-8">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-white mb-4">🚀 Photo Batch Processor</h1>
+            <p class="text-white/80 text-lg">Массовая обработка фотографий через ComfyUI API</p>
+        </div>
+
+        <!-- Status Bar -->
+        <div class="glass rounded-lg p-4 mb-6 text-white">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center">
+                        <i class="fas fa-circle text-xs mr-2" :class="serverStatus.comfyui_connected ? 'text-green-400' : 'text-red-400'"></i>
+                        <span x-text="serverStatus.comfyui_connected ? 'ComfyUI подключен' : 'ComfyUI отключен'"></span>
+                    </div>
+                    <div>
+                        <i class="fas fa-tasks mr-2"></i>
+                        <span x-text="`Активных задач: ${serverStatus.active_tasks}`"></span>
+                    </div>
+                </div>
+                <button @click="updateStatus()" class="bg-white/20 hover:bg-white/30 px-3 py-1 rounded transition-colors">
+                    <i class="fas fa-sync-alt" :class="{ 'animate-spin': updating }"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <!-- Upload Section -->
+            <div class="glass rounded-lg p-6">
+                <h2 class="text-2xl font-bold text-white mb-4">📁 Загрузка файлов</h2>
+                
+                <!-- File Drop Zone -->
+                <div 
+                    @drop.prevent="handleFileDrop($event)"
+                    @dragover.prevent
+                    @dragenter.prevent
+                    class="border-2 border-dashed border-white/50 rounded-lg p-8 text-center cursor-pointer hover:border-white/80 transition-colors"
+                    :class="{ 'border-blue-400 bg-blue-400/20': dragOver }"
+                    @dragenter="dragOver = true"
+                    @dragleave="dragOver = false"
+                    @click="$refs.fileInput.click()"
+                >
+                    <i class="fas fa-cloud-upload-alt text-4xl text-white/60 mb-4"></i>
+                    <p class="text-white text-lg mb-2">Перетащите файлы сюда или нажмите для выбора</p>
+                    <p class="text-white/60 text-sm">Поддерживаются: JPG, PNG, WebP</p>
+                    <input type="file" multiple accept="image/*" class="hidden" x-ref="fileInput" @change="handleFileSelect($event)">
+                </div>
+
+                <!-- Uploaded Files -->
+                <div x-show="uploadedFiles.length > 0" class="mt-4">
+                    <h3 class="text-white font-bold mb-2">Загруженные файлы:</h3>
+                    <div class="max-h-32 overflow-y-auto space-y-1">
+                        <template x-for="file in uploadedFiles" :key="file">
+                            <div class="bg-white/10 rounded px-3 py-1 text-white text-sm flex items-center justify-between">
+                                <span x-text="file"></span>
+                                <button @click="removeFile(file)" class="text-red-400 hover:text-red-300">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Configuration Section -->
+            <div class="glass rounded-lg p-6">
+                <h2 class="text-2xl font-bold text-white mb-4">⚙️ Настройки обработки</h2>
+                
+                <div class="space-y-4">
+                    <!-- Workflow Type -->
+                    <div>
+                        <label class="block text-white font-bold mb-2">Тип обработки:</label>
+                        <select x-model="config.workflow_type" class="w-full bg-white/10 border border-white/30 rounded px-3 py-2 text-white">
+                            <option value="upscale">🔍 Увеличение разрешения</option>
+                            <option value="enhance">✨ Улучшение качества</option>
+                        </select>
+                    </div>
+
+                    <!-- Upscale Model -->
+                    <div x-show="config.workflow_type === 'upscale'">
+                        <label class="block text-white font-bold mb-2">Модель увеличения:</label>
+                        <select x-model="config.upscale_model" class="w-full bg-white/10 border border-white/30 rounded px-3 py-2 text-white">
+                            {% for model in models %}
+                            <option value="{{ model }}">{{ model }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- Output Format -->
+                    <div>
+                        <label class="block text-white font-bold mb-2">Формат вывода:</label>
+                        <select x-model="config.output_format" class="w-full bg-white/10 border border-white/30 rounded px-3 py-2 text-white">
+                            <option value="png">PNG (без потерь)</option>
+                            <option value="jpg">JPG (сжатый)</option>
+                            <option value="webp">WebP (современный)</option>
+                        </select>
+                    </div>
+
+                    <!-- Batch Size -->
+                    <div>
+                        <label class="block text-white font-bold mb-2">Размер батча:</label>
+                        <input type="range" min="1" max="10" x-model="config.batch_size" class="w-full">
+                        <div class="text-white/80 text-sm mt-1">
+                            <span x-text="`${config.batch_size} изображений за раз`"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Start Processing Button -->
+                <button 
+                    @click="startProcessing()"
+                    :disabled="uploadedFiles.length === 0 || processing"
+                    class="w-full bg-green-500 hover:bg-green-600 disabled:bg-gray-500 disabled:cursor-not-allowed text-white font-bold py-3 px-4 rounded-lg mt-6 transition-colors"
+                >
+                    <span x-show="!processing">🚀 Начать обработку</span>
+                    <span x-show="processing">
+                        <i class="fas fa-spinner animate-spin mr-2"></i>
+                        Обработка...
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Tasks Section -->
+        <div class="glass rounded-lg p-6 mt-6">
+            <h2 class="text-2xl font-bold text-white mb-4">📊 Задачи обработки</h2>
+            
+            <div x-show="tasks.length === 0" class="text-white/60 text-center py-8">
+                Нет активных задач
+            </div>
+
+            <div class="space-y-3">
+                <template x-for="task in tasks" :key="task.task_id">
+                    <div class="bg-white/10 rounded-lg p-4">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-white font-bold" x-text="`Задача: ${task.task_id.slice(0, 8)}...`"></span>
+                            <span 
+                                class="px-2 py-1 rounded text-xs font-bold"
+                                :class="{
+                                    'bg-yellow-500 text-yellow-900': task.status === 'pending',
+                                    'bg-blue-500 text-blue-900': task.status === 'processing',
+                                    'bg-green-500 text-green-900': task.status === 'completed',
+                                    'bg-red-500 text-red-900': task.status === 'failed'
+                                }"
+                                x-text="task.status"
+                            ></span>
+                        </div>
+                        
+                        <div class="text-white/80 text-sm mb-2">
+                            <span x-text="`Файлов: ${task.files.length}`"></span>
+                            <span class="mx-2">•</span>
+                            <span x-text="`Создано: ${new Date(task.created_at).toLocaleString()}`"></span>
+                        </div>
+
+                        <!-- Progress for processing tasks -->
+                        <div x-show="task.status === 'processing'" class="w-full bg-white/20 rounded-full h-2 mb-2">
+                            <div class="bg-blue-500 h-2 rounded-full animate-pulse" style="width: 50%"></div>
+                        </div>
+
+                        <!-- Download button for completed tasks -->
+                        <div x-show="task.status === 'completed'" class="mt-3">
+                            <button 
+                                @click="downloadResults(task.task_id)"
+                                class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded text-sm transition-colors"
+                            >
+                                <i class="fas fa-download mr-1"></i>
+                                Скачать результаты
+                            </button>
+                        </div>
+
+                        <!-- Error message for failed tasks -->
+                        <div x-show="task.status === 'failed' && task.error" class="mt-2 p-2 bg-red-500/20 rounded text-red-300 text-sm">
+                            <span x-text="task.error"></span>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function photoBatchProcessor() {
+            return {
+                serverStatus: {
+                    comfyui_connected: {{ 'true' if comfyui_status else 'false' }},
+                    active_tasks: {{ active_tasks }}
+                },
+                uploadedFiles: [],
+                tasks: [],
+                config: {
+                    workflow_type: 'upscale',
+                    upscale_model: '{{ models[0] if models else "4x_ESRGAN.pth" }}',
+                    output_format: 'png',
+                    batch_size: 5
+                },
+                processing: false,
+                updating: false,
+                dragOver: false,
+
+                async init() {
+                    await this.updateStatus();
+                    await this.loadTasks();
+                    // Обновляем статус каждые 5 секунд
+                    setInterval(() => this.updateStatus(), 5000);
+                    setInterval(() => this.loadTasks(), 3000);
+                },
+
+                async updateStatus() {
+                    this.updating = true;
+                    try {
+                        const response = await fetch('/api/status');
+                        this.serverStatus = await response.json();
+                    } catch (error) {
+                        console.error('Ошибка обновления статуса:', error);
+                    }
+                    this.updating = false;
+                },
+
+                async loadTasks() {
+                    try {
+                        const response = await fetch('/api/tasks');
+                        this.tasks = await response.json();
+                    } catch (error) {
+                        console.error('Ошибка загрузки задач:', error);
+                    }
+                },
+
+                handleFileDrop(event) {
+                    this.dragOver = false;
+                    const files = Array.from(event.dataTransfer.files);
+                    this.uploadFiles(files);
+                },
+
+                handleFileSelect(event) {
+                    const files = Array.from(event.target.files);
+                    this.uploadFiles(files);
+                },
+
+                async uploadFiles(files) {
+                    const formData = new FormData();
+                    files.forEach(file => {
+                        if (file.type.startsWith('image/')) {
+                            formData.append('files', file);
+                        }
+                    });
+
+                    try {
+                        const response = await fetch('/api/upload', {
+                            method: 'POST',
+                            body: formData
+                        });
+                        
+                        if (response.ok) {
+                            const result = await response.json();
+                            this.uploadedFiles.push(...result.uploaded_files);
+                        }
+                    } catch (error) {
+                        console.error('Ошибка загрузки файлов:', error);
+                        alert('Ошибка загрузки файлов');
+                    }
+                },
+
+                removeFile(filename) {
+                    this.uploadedFiles = this.uploadedFiles.filter(f => f !== filename);
+                },
+
+                async startProcessing() {
+                    if (this.uploadedFiles.length === 0) return;
+
+                    this.processing = true;
+                    const formData = new FormData();
+                    
+                    this.uploadedFiles.forEach(file => {
+                        formData.append('files', file);
+                    });
+                    
+                    formData.append('workflow_type', this.config.workflow_type);
+                    formData.append('upscale_model', this.config.upscale_model);
+                    formData.append('output_format', this.config.output_format);
+                    formData.append('batch_size', this.config.batch_size);
+
+                    try {
+                        const response = await fetch('/api/process', {
+                            method: 'POST',
+                            body: formData
+                        });
+
+                        if (response.ok) {
+                            const result = await response.json();
+                            this.uploadedFiles = [];
+                            await this.loadTasks();
+                        } else {
+                            alert('Ошибка запуска обработки');
+                        }
+                    } catch (error) {
+                        console.error('Ошибка запуска обработки:', error);
+                        alert('Ошибка запуска обработки');
+                    }
+                    
+                    this.processing = false;
+                },
+
+                downloadResults(taskId) {
+                    window.open(`/api/download/${taskId}`, '_blank');
+                }
+            }
+        }
+    </script>
+</body>
+</html> 

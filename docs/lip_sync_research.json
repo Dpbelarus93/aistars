@@ -1,0 +1,13 @@
+{
+  "custom_tasks": {
+    "total_tasks": 3,
+    "successful_tasks": 0,
+    "failed_tasks": 1,
+    "execution_time": 0,
+    "efficiency_score": 0.0,
+    "lessons_learned": [
+      "Low success rate - need better agent-task matching",
+      "Current success rate: 0.0%"
+    ]
+  }
+}

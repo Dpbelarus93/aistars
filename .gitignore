@@ -1,0 +1,37 @@
+# Системные файлы
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Виртуальные окружения
+photo_batch_env/
+venv/
+env/
+
+# Временные файлы
+temp/
+test_output/
+batch_output/
+upscaled_images/
+input_images/
+
+# Большие файлы и папки
+ComfyUI_temp/
+Real-ESRGAN/
+comfyui-mcp-server/
+
+# Готовые материалы (слишком большие)
+final_video/
+готовые видео/
+Видео для клипа/
+Аудио треки/
+
+# База данных
+*.db
+
+# Логи
+*.log 
