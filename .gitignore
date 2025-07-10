@@ -1,3 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.env
+.env.example
+
+# Media files
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.jpg
+*.png
+*.gif
+video/
+audio/
+photos/
+ALL_TRACK_PHOTOS/
+VOICE_TRACKS/
+нейрофото/
+нейрофото_8K_SIMPLE/
+LIP_SYNC_*/
+
+# Temp files
+*.log
+*.tmp
+downloaded_track.mp3
+final_clip.mov
+tmp_logo_src/
+misc/
+rap_10sec_segments/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Custom folders to exclude
+Фотографии/
+логотипы/
+Текстовые файлы/
+Документация/
+хочу еще/
+
 # Системные файлы
 .DS_Store
 .vscode/
