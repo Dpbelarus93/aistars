@@ -1,20 +1,54 @@
-# Медиафайлы и рабочие материалы
+# ====================================
+# МЕДИА ФАЙЛЫ И РАБОЧИЕ МАТЕРИАЛЫ
+# ====================================
+
+# Видео форматы
 *.mp4
 *.mov
-*.wav
+*.avi
+*.mkv
+*.flv
+*.webm
+*.m4v
+*.3gp
+*.wmv
+*.m2ts
+*.ts
+*.vob
+*.ogv
+
+# Аудио форматы
 *.mp3
+*.wav
+*.aac
+*.flac
+*.ogg
+*.wma
+*.m4a
+*.opus
+*.aiff
+*.au
+*.ra
+
+# Изображения
 *.jpg
 *.jpeg
 *.png
 *.gif
 *.bmp
 *.tiff
-*.avi
-*.mkv
-*.flv
-*.webm
-*.m4a
-*.aac
+*.tif
+*.webp
+*.svg
+*.ico
+*.psd
+*.ai
+*.eps
+*.raw
+*.cr2
+*.nef
+*.arw
+*.dng
 
 # Рабочие директории с медиа
 ALL_TRACK_PHOTOS/
@@ -27,132 +61,160 @@ photos/
 нейрофото_8K_SIMPLE/
 логотипы/
 Фотографии/
-
-# Временные файлы
-*.log
-*.tmp
-downloaded_track.mp3
-final_clip.mov
-tmp_logo_src/
-misc/
-rap_10sec_segments/
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-.Python
-venv/
-.env
-.env.example
-
-# IDE и системные файлы
-.idea/
-.vscode/
-*.swp
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Специфичные для проекта временные файлы и директории
-data/
-tmp/
-cache/
-output/
-results/
-downloads/
-
-# Локальные конфигурации
-Конфигурационные файлы/
-config.local.json
-settings.local.yaml
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-.Python
-venv/
-.env
-.env.example
-
-# Media files
-*.mp4
-*.mov
-*.wav
-*.mp3
-*.jpg
-*.png
-*.gif
-video/
-audio/
-photos/
-ALL_TRACK_PHOTOS/
-VOICE_TRACKS/
-нейрофото/
-нейрофото_8K_SIMPLE/
-LIP_SYNC_*/
-
-# Temp files
-*.log
-*.tmp
-downloaded_track.mp3
-final_clip.mov
-tmp_logo_src/
-misc/
-rap_10sec_segments/
-
-# Mac
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# IDE
-.idea/
-.vscode/
-*.swp
-
-# Custom folders to exclude
-Фотографии/
-логотипы/
-Текстовые файлы/
-Документация/
-хочу еще/
-
-# Системные файлы
-.DS_Store
-.vscode/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-
-# Виртуальные окружения
-photo_batch_env/
-venv/
-env/
-
-# Временные файлы
-temp/
-test_output/
-batch_output/
-upscaled_images/
-input_images/
-
-# Большие файлы и папки
-ComfyUI_temp/
-Real-ESRGAN/
-comfyui-mcp-server/
-
-# Готовые материалы (слишком большие)
+ready_video/
 final_video/
 готовые видео/
 Видео для клипа/
 Аудио треки/
+upscaled_images/
+input_images/
+
+# Временные медиа файлы
+downloaded_track.mp3
+final_clip.mov
+tmp_logo_src/
+misc/
+rap_10sec_segments/
+
+# ====================================
+# СИСТЕМНЫЕ И ВРЕМЕННЫЕ ФАЙЛЫ
+# ====================================
+
+# Логи
+*.log
+git-sync.log
+
+# Временные файлы
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# ====================================
+# СРЕДЫ РАЗРАБОТКИ
+# ====================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Виртуальные окружения Python
+venv/
+env/
+ENV/
+photo_batch_env/
+.venv/
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+.env.example
+
+# ====================================
+# IDE И РЕДАКТОРЫ
+# ====================================
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+
+# ====================================
+# СПЕЦИФИЧНЫЕ ДЛЯ ПРОЕКТА
+# ====================================
+
+# Большие модули и инструменты
+ComfyUI_temp/
+Real-ESRGAN/
+comfyui-mcp-server/
+ffmpeg
+
+# Временные директории
+temp/
+tmp/
+test_output/
+batch_output/
+cache/
+output/
+results/
+data/
+
+# Локальные конфигурации
+config.local.json
+settings.local.yaml
+Конфигурационные файлы/
+Текстовые файлы/
+Документация/
 
 # База данных
 *.db
+*.sqlite
+*.sqlite3
 
-# Логи
-*.log 
+# Архивы
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# Большие файлы (>100MB)
+*.bin
+*.exe
+*.dmg
+*.pkg
+*.deb
+*.rpm

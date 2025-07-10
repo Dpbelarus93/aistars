@@ -1,0 +1,113 @@
+
+🎤 RAP LIP SYNC MIXER - ПЛАН СОЗДАНИЯ
+============================================================
+
+📊 СТАТИСТИКА:
+  • Всего миксов: 20
+  • Уникальных треков: 10
+  • Уникальных фото: 9
+
+🎵 ТРЕКИ В РАБОТЕ:
+   1. track_02_rap_5sec_012_55s-60s.wav
+   2. track_10_rap_5sec_018_85s-90s.wav
+   3. track_04_rap_5sec_022_105s-110s.wav
+   4. track_06_rap_10sec_01.wav
+   5. track_07_rap_5sec_008_35s-40s.wav
+   6. track_03_rap_5sec_003_10s-15s.wav
+   7. track_08_rap_10sec_02.wav
+   8. track_09_rap_5sec_020_95s-100s.wav
+   9. track_05_rap_10sec_03.wav
+  10. track_01_rap_5sec_015_70s-75s.wav
+
+📸 ФОТО В РАБОТЕ:
+   1. photo_01_2025-05-27 00.17.18.jpg
+   2. photo_10_upscaled__00078_.png
+   3. photo_08_upscaled__00013_.png
+   4. photo_04_2025-05-27 01.30.37.jpg
+   5. photo_06_upscaled__00006_.png
+   6. photo_05_2025-05-24 23.48.19.jpg
+   7. photo_02_2025-05-27 02.27.10.jpg
+   8. photo_09_upscaled__00070_.png
+   9. photo_03_2025-05-26 17.52.42.jpg
+
+🎬 ДЕТАЛЬНЫЙ ПЛАН:
+   1. mix_01_1_track_01_rap_5sec_015_70s-75s_photo_08_upscaled__00013_
+      🎵 track_01_rap_5sec_015_70s-75s.wav
+      📸 photo_08_upscaled__00013_.png
+      📹 → mix_01_1_track_01_rap_5sec_015_70s-75s_photo_08_upscaled__00013_.mp4
+   2. mix_01_2_track_01_rap_5sec_015_70s-75s_photo_05_2025-05-24 23.48.19
+      🎵 track_01_rap_5sec_015_70s-75s.wav
+      📸 photo_05_2025-05-24 23.48.19.jpg
+      📹 → mix_01_2_track_01_rap_5sec_015_70s-75s_photo_05_2025-05-24 23.48.19.mp4
+   3. mix_02_1_track_02_rap_5sec_012_55s-60s_photo_02_2025-05-27 02.27.10
+      🎵 track_02_rap_5sec_012_55s-60s.wav
+      📸 photo_02_2025-05-27 02.27.10.jpg
+      📹 → mix_02_1_track_02_rap_5sec_012_55s-60s_photo_02_2025-05-27 02.27.10.mp4
+   4. mix_02_2_track_02_rap_5sec_012_55s-60s_photo_08_upscaled__00013_
+      🎵 track_02_rap_5sec_012_55s-60s.wav
+      📸 photo_08_upscaled__00013_.png
+      📹 → mix_02_2_track_02_rap_5sec_012_55s-60s_photo_08_upscaled__00013_.mp4
+   5. mix_03_1_track_03_rap_5sec_003_10s-15s_photo_01_2025-05-27 00.17.18
+      🎵 track_03_rap_5sec_003_10s-15s.wav
+      📸 photo_01_2025-05-27 00.17.18.jpg
+      📹 → mix_03_1_track_03_rap_5sec_003_10s-15s_photo_01_2025-05-27 00.17.18.mp4
+   6. mix_03_2_track_03_rap_5sec_003_10s-15s_photo_03_2025-05-26 17.52.42
+      🎵 track_03_rap_5sec_003_10s-15s.wav
+      📸 photo_03_2025-05-26 17.52.42.jpg
+      📹 → mix_03_2_track_03_rap_5sec_003_10s-15s_photo_03_2025-05-26 17.52.42.mp4
+   7. mix_04_1_track_04_rap_5sec_022_105s-110s_photo_04_2025-05-27 01.30.37
+      🎵 track_04_rap_5sec_022_105s-110s.wav
+      📸 photo_04_2025-05-27 01.30.37.jpg
+      📹 → mix_04_1_track_04_rap_5sec_022_105s-110s_photo_04_2025-05-27 01.30.37.mp4
+   8. mix_04_2_track_04_rap_5sec_022_105s-110s_photo_01_2025-05-27 00.17.18
+      🎵 track_04_rap_5sec_022_105s-110s.wav
+      📸 photo_01_2025-05-27 00.17.18.jpg
+      📹 → mix_04_2_track_04_rap_5sec_022_105s-110s_photo_01_2025-05-27 00.17.18.mp4
+   9. mix_05_1_track_05_rap_10sec_03_photo_01_2025-05-27 00.17.18
+      🎵 track_05_rap_10sec_03.wav
+      📸 photo_01_2025-05-27 00.17.18.jpg
+      📹 → mix_05_1_track_05_rap_10sec_03_photo_01_2025-05-27 00.17.18.mp4
+  10. mix_05_2_track_05_rap_10sec_03_photo_05_2025-05-24 23.48.19
+      🎵 track_05_rap_10sec_03.wav
+      📸 photo_05_2025-05-24 23.48.19.jpg
+      📹 → mix_05_2_track_05_rap_10sec_03_photo_05_2025-05-24 23.48.19.mp4
+  11. mix_06_1_track_06_rap_10sec_01_photo_08_upscaled__00013_
+      🎵 track_06_rap_10sec_01.wav
+      📸 photo_08_upscaled__00013_.png
+      📹 → mix_06_1_track_06_rap_10sec_01_photo_08_upscaled__00013_.mp4
+  12. mix_06_2_track_06_rap_10sec_01_photo_09_upscaled__00070_
+      🎵 track_06_rap_10sec_01.wav
+      📸 photo_09_upscaled__00070_.png
+      📹 → mix_06_2_track_06_rap_10sec_01_photo_09_upscaled__00070_.mp4
+  13. mix_07_1_track_07_rap_5sec_008_35s-40s_photo_03_2025-05-26 17.52.42
+      🎵 track_07_rap_5sec_008_35s-40s.wav
+      📸 photo_03_2025-05-26 17.52.42.jpg
+      📹 → mix_07_1_track_07_rap_5sec_008_35s-40s_photo_03_2025-05-26 17.52.42.mp4
+  14. mix_07_2_track_07_rap_5sec_008_35s-40s_photo_02_2025-05-27 02.27.10
+      🎵 track_07_rap_5sec_008_35s-40s.wav
+      📸 photo_02_2025-05-27 02.27.10.jpg
+      📹 → mix_07_2_track_07_rap_5sec_008_35s-40s_photo_02_2025-05-27 02.27.10.mp4
+  15. mix_08_1_track_08_rap_10sec_02_photo_06_upscaled__00006_
+      🎵 track_08_rap_10sec_02.wav
+      📸 photo_06_upscaled__00006_.png
+      📹 → mix_08_1_track_08_rap_10sec_02_photo_06_upscaled__00006_.mp4
+  16. mix_08_2_track_08_rap_10sec_02_photo_02_2025-05-27 02.27.10
+      🎵 track_08_rap_10sec_02.wav
+      📸 photo_02_2025-05-27 02.27.10.jpg
+      📹 → mix_08_2_track_08_rap_10sec_02_photo_02_2025-05-27 02.27.10.mp4
+  17. mix_09_1_track_09_rap_5sec_020_95s-100s_photo_06_upscaled__00006_
+      🎵 track_09_rap_5sec_020_95s-100s.wav
+      📸 photo_06_upscaled__00006_.png
+      📹 → mix_09_1_track_09_rap_5sec_020_95s-100s_photo_06_upscaled__00006_.mp4
+  18. mix_09_2_track_09_rap_5sec_020_95s-100s_photo_10_upscaled__00078_
+      🎵 track_09_rap_5sec_020_95s-100s.wav
+      📸 photo_10_upscaled__00078_.png
+      📹 → mix_09_2_track_09_rap_5sec_020_95s-100s_photo_10_upscaled__00078_.mp4
+  19. mix_10_1_track_10_rap_5sec_018_85s-90s_photo_04_2025-05-27 01.30.37
+      🎵 track_10_rap_5sec_018_85s-90s.wav
+      📸 photo_04_2025-05-27 01.30.37.jpg
+      📹 → mix_10_1_track_10_rap_5sec_018_85s-90s_photo_04_2025-05-27 01.30.37.mp4
+  20. mix_10_2_track_10_rap_5sec_018_85s-90s_photo_09_upscaled__00070_
+      🎵 track_10_rap_5sec_018_85s-90s.wav
+      📸 photo_09_upscaled__00070_.png
+      📹 → mix_10_2_track_10_rap_5sec_018_85s-90s_photo_09_upscaled__00070_.mp4
