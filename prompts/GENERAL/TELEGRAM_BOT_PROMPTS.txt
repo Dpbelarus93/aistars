@@ -1,0 +1,48 @@
+TELEGRAM BOT PROMPTS FOR FLUX1 PRO - ENGLISH ONLY
+
+=== CYBORG MATRIX SCENE ===
+
+Professional portrait, Sony FX9, 35mm lens, ultra-detailed facial features, natural skin texture, visible pores, sharp eyes, individual hair strands. Athletic 193cm physique, AI tattoos with neural patterns, circuit designs. Half-cyborg awakening in Matrix server room, thousands of glowing cables disconnecting from body, electrical sparks, bio-fluid capsules, quantum computing blocks, LED indicators. Italian designer clothing with cybernetic elements. Dramatic Matrix lighting, green digital rain, volumetric fog, holographic displays, tech-noir aesthetic, deep blue black neon green colors, cinematic composition, 8k quality, masterpiece.
+
+NEGATIVES: poor quality, bad anatomy, blurry face, amateur
+
+=== MATRIX PHONE BOOTH ===
+
+Professional portrait, Sony FX9, 35mm, hyper-detailed face, natural skin texture, visible pores, sharp focus. Athletic 193cm frame, AI neural tattoos. Person in vintage red phone booth holding handset, intense conversation pose. Italian designer dark clothing. Weathered booth with scratched glass, flickering light. Dense atmospheric fog, mystical smoke, twilight lighting, wet pavement reflections, neon signs. Matrix green-tinted atmosphere, digital rain background, cinematic noir lighting, tech-noir aesthetic, supernatural mood, 8k quality, masterpiece.
+
+NEGATIVES: poor quality, bad anatomy, blurry, bright daylight, modern booth
+
+=== NORWEGIAN FJORDS CONVERTIBLE ===
+
+Professional automotive photography, Canon EOS R5, elevated angle. Perfect facial detail, natural skin texture, visible pores, sharp eyes. Person in luxury vintage convertible on Norwegian fjord cliff. Italian designer clothing, expensive leather shoes. Pristine classic car, polished chrome, cognac leather interior. Dramatic fjord landscape, sapphire waters, emerald grass, snow peaks, massive clouds. Golden hour sunset, warm tones, dramatic reflections, cinematic composition, f8 landscape sharpness, Fujifilm Velvia colors, 8k quality, masterpiece.
+
+NEGATIVES: plastic car parts, poor quality, cheap materials, artificial lighting
+
+=== DETAILED PORTRAIT ===
+
+Professional portrait, Canon EOS R5, 85mm lens, close detailed shot. PERFECT FACIAL FEATURES, natural skin texture, realistic pores, sharp intelligent eyes, natural moisture, confident expression, individual hair strands visible. Italian designer clothing, premium materials. Portrait lighting, golden hour illumination, f2.8 depth of field, professional retouching maintaining authentic qualities, cinematic composition, 8k quality, masterpiece.
+
+NEGATIVES: blurry face, plastic skin, artificial features, poor detail
+
+=== UNIVERSAL QUALITY ENHANCERS ===
+
+masterpiece, best quality, ultra detailed, sharp focus, 8k uhd, high resolution, professional photography, cinematic lighting, perfect composition
+
+=== UNIVERSAL NEGATIVES ===
+
+poor quality, low resolution, bad anatomy, blurry, worst quality, jpeg artifacts, amateur
+
+=== ADVICE FOR TELEGRAM BOT ===
+
+1. Each prompt ~1500-2000 characters (will fit in Telegram)
+2. Start with the main prompt
+3. Add universal quality enhancers at the end
+4. Use negatives separately if needed
+5. For Flux1 Pro removed technical parameters (Steps, CFG) - they are not needed
+
+=== FAST COMMANDS FOR BOT ===
+
+/cyborg - Cyborg Matrix scene
+/phonebooth - Matrix phone booth  
+/fjords - Norwegian fjords convertible
+/portrait - Detailed portrait 

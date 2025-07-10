@@ -1,0 +1,58 @@
+FLUX PRO ULTRA-REALISTIC MASTER PROMPT - MOSCOW METRO SCENE
+
+=== ОСНОВНОЙ ПРОМПТ ===
+
+Professional RAW photograph taken with Canon EOS R5, 85mm lens, natural lighting mixed with dramatic metro illumination. Three elegantly dressed people walking confidently through an ornate Moscow metro station. The main subject wears an expensive tailored charcoal wool coat over a perfectly fitted suit, displaying old aristocratic money aesthetic. Confident, commanding facial expression with perfect skin detail showing natural pores and subtle imperfections. Sharp, intelligent eyes with natural moisture and realistic reflections. Individual hair strands visible with natural texture and movement.
+
+The Moscow metro station features authentic Soviet-era grandeur: polished marble columns with intricate veining, crystal chandeliers casting warm ambient light, ornate bronze details, and classical architectural elements. A diverse crowd of commuters and students fills the background, creating natural depth and authentic urban atmosphere. 
+
+Surreal elements seamlessly integrated: vintage leather-bound books and educational papers floating ethereally around the scene, glowing softly as if suspended in time. Old banknotes drift gently through the air with subtle transparency. These fantastical elements blend naturally with the photorealistic environment.
+
+Camera settings: f/2.8 aperture for natural depth of field, ISO 800 for grain texture, 1/125 shutter speed capturing slight motion blur on background figures while keeping main subjects tack sharp. Color grading mimics Kodak Portra 400 film stock with warm undertones and natural color reproduction. Professional retouching maintaining skin authenticity. Shot in golden hour equivalent underground lighting with practical metro lights providing natural fill illumination.
+
+=== РАСШИРЕННАЯ ВЕРСИЯ (если нужно больше деталей) ===
+
+Professional documentary-style photograph captured during a spontaneous moment in Moscow's metro system. Shot with professional medium format camera, Fujifilm GFX 100S with 63mm f/2.8 lens, creating natural perspective distortion and authentic field depth. The lighting setup combines existing metro station illumination with subtle bounce flash to maintain natural skin tones and eliminate harsh shadows.
+
+Three sophisticated individuals walking with purpose and confidence through the architectural masterpiece of Moscow's underground. The central figure's expensive charcoal wool overcoat displays subtle texture details - fine weave patterns, natural fabric drape, and hand-stitched details visible in close inspection. Underneath, a perfectly tailored navy suit with natural wrinkles at movement points. Facial features rendered with photojournalistic authenticity: natural skin texture showing subtle laugh lines, realistic stubble or makeup application, eyes displaying genuine emotion and intelligence rather than artificial perfection.
+
+The metro station showcases authentic Stalinist architecture: Carrara marble walls with natural veining patterns, bronze fixtures showing appropriate age patina, crystal chandeliers with individual bulbs creating natural light scattering. Background crowd consists of real-looking individuals - students carrying authentic textbooks, workers in realistic attire, elderly passengers with natural aging details, all displaying genuine human micro-expressions and natural body language.
+
+Photographic surrealism achieved through practical effects appearance: antique books appearing to float as if suspended by invisible wires, pages naturally ruffled by air movement, vintage currency notes scattered in background with realistic transparency effects suggesting double exposure technique. Educational symbols glowing as if lit by hidden LED strips, creating theatrical but believable lighting effects.
+
+Color palette maintains natural saturation levels with slight warmth bias typical of underground tungsten lighting. Shadows retain detail without crushing blacks. Highlights controlled to avoid blown-out areas. Natural film grain texture applied subtly throughout. Post-processing maintains authentic photographic characteristics - slight vignetting, natural lens distortion, realistic depth of field falloff.
+
+=== NEGATIVE PROMPTS ===
+plastic skin, artificial faces, oversaturated colors, digital painting look, anime style, cartoon features, perfect symmetry, sterile lighting, empty station, modern clothing, casual wear, smartphone photography quality, Instagram filter effects, HDR processing, unrealistic proportions, floating people, obvious photoshop effects
+
+=== ТЕХНИЧЕСКИЕ ПАРАМЕТРЫ ===
+- Style: Photojournalistic realism
+- Color: Natural film emulation, warm undertones
+- Lighting: Mixed practical and ambient
+- Composition: Rule of thirds with natural framing
+- Focus: Sharp on subjects, natural bokeh on background
+- Grain: Subtle film texture, ISO 800 equivalent
+- Processing: Minimal, authentic retouching only
+
+=== FLUX PRO СПЕЦИФИЧЕСКИЕ КОМАНДЫ ===
+Use: --aspect 16:9 --style photorealistic --quality premium
+Focus: Natural photography, documentary style, authentic human features
+Avoid: Digital art aesthetics, over-processing, artificial perfection
+
+=== ВАРИАЦИИ ДЛЯ ЭКСПЕРИМЕНТОВ ===
+
+SHORT VERSION:
+"Professional photograph of three confident people in expensive coats walking through ornate Moscow metro station, natural lighting, photorealistic faces, surreal floating books, documentary photography style, Canon camera quality"
+
+CLOSE-UP VERSION:
+"Professional portrait of confident person in expensive tailored coat in Moscow metro, natural skin texture, perfect facial details, dramatic underground lighting, surreal floating books in background, photojournalistic style"
+
+WIDE SHOT VERSION:
+"Wide angle documentary photograph of three elegant figures walking through grand Moscow metro station architecture, natural crowd in background, floating books surreal elements, professional photography with natural colors"
+
+=== ФИНАЛЬНЫЕ СОВЕТЫ ===
+1. Начните с короткой версии, затем расширяйте
+2. Flux Pro лучше понимает фотографические термины чем художественные
+3. Упоминание конкретных камер и объективов улучшает реализм
+4. Естественные дефекты (поры, морщины) делают лица более реальными
+5. Описание освещения как "practical" дает лучший результат чем "cinematic" 

@@ -1,0 +1,13 @@
+{
+  "mix_id": 1,
+  "audio_file": "audio_01.wav",
+  "photo_file": "photo_01.png",
+  "original_audio": "track_01_rap_5sec_015_70s-75s.wav",
+  "original_photo": "photo_08_upscaled__00013_.png",
+  "heygen_settings": {
+    "quality": "high",
+    "voice_clone": true,
+    "lip_sync": "precise",
+    "background": "remove"
+  }
+}

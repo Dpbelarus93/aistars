@@ -1,0 +1,45 @@
+🎵 ГОТОВЫЕ ПРОМТЫ ДЛЯ SUNO EXTEND
+===============================================
+
+🚀 ДЛЯ СОЗДАНИЯ ВСТУПЛЕНИЯ (16 bars):
+---------------------------------------
+[Intro - 16 bars], atmospheric pads, deep 808 sub-bass, ambient textures, rising tension, vocal whispers, drill hi-hats, *synth sweep building energy*, *ambient rain sounds*, {background vocals: "ooh, ah, yeah"}, (whispered: "feel the power rising"), [Heavy bass drop into main track]
+
+🎯 АЛЬТЕРНАТИВНЫЙ ВАРИАНТ INTRO:
+--------------------------------
+[Intro], cinematic atmosphere, deep sub frequencies, vocal chops pitched down, *rising white noise*, *digital glitch effects*, {layered vocals: "here we go"}, (spoken softly: "this is it"), building to explosive drop, [Full energy release]
+
+🌟 ДЛЯ СОЗДАНИЯ BRIDGE (8-16 bars):
+-----------------------------------
+[Bridge - 12 bars], stripped down arrangement, emotional vocal focus, minimal 808 pattern, *atmospheric break*, *soft piano chords*, {harmony vocals: "take me higher"}, (whispered: "feel the moment"), building tension for final chorus
+
+🎭 ДЛЯ СОЗДАНИЯ OUTRO (16 bars):
+--------------------------------
+[Outro - 16 bars], emotional fade, ambient pads with reverb, vocal echoes, *soft vinyl crackle*, *distant crowd ambience*, {layered vocals: "fade into the night"}, (whispered: "until we meet again"), [Slow fade out and end]
+
+💥 ДЛЯ ДОБАВЛЕНИЯ ЭНЕРГИИ В СЕРЕДИНУ:
+------------------------------------
+[Verse 2 - Enhanced], add drill hi-hat rolls, deeper 808 bass, vocal doubles, *synth stabs*, *crowd chants*, {ad-libs: "yeah, uh, let's go"}, (shouted: "turn it up"), maximum energy build
+
+🎪 ДЛЯ СОЗДАНИЯ BREAKDOWN:
+-------------------------
+[Breakdown - 8 bars], remove all drums, keep only bass and vocals, *atmospheric reverb*, *echo effects*, {whispered vocals: "silence before the storm"}, (spoken: "here comes the drop"), building to massive return
+
+===============================================
+💡 ИНСТРУКЦИЯ ПО ИСПОЛЬЗОВАНИЮ:
+
+1. Открой свой трек в Suno
+2. Нажми "Extend" 
+3. Выбери позицию (начало/середина/конец)
+4. Скопируй нужный промт
+5. Вставь в поле Style
+6. Генерируй!
+
+🔥 СЕКРЕТНЫЕ ТЕХНИКИ:
+- Используй * для звуковых эффектов
+- Используй { } для бэк-вокала
+- Используй ( ) для эмоциональных указаний
+- Указывай точное количество bars
+- Всегда заканчивай переходом к следующей части
+
+=============================================== 

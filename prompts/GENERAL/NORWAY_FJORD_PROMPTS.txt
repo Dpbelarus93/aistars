@@ -1,0 +1,71 @@
+NORWAY FJORD CABRIOLET SCENE - FLUX PRO PROMPTS
+
+=== ОСНОВНОЙ ПРОМПТ (РЕКОМЕНДУЕМЫЙ) ===
+
+Professional RAW photograph taken with Canon EOS R5, 24-70mm lens at 35mm, elevated angle shot from above. Elegant person sitting relaxed in a pristine vintage convertible car positioned on a dramatic cliff edge overlooking Norwegian fjords. The subject wears casual Italian luxury style - premium linen shirt, tailored shorts, and exclusive designer flip-flops from high-end brands. The vintage cabriolet is a rare classic model in perfect restoration condition, polished chrome and leather seats gleaming. Dramatic Norwegian fjord landscape stretches below: deep blue waters reflecting towering cliffs, emerald green grass covering rolling hills, white clouds drifting across the vast sky. Golden hour sunset lighting bathes the entire scene in warm, natural tones. The composition captures both the subject in the convertible and the breathtaking fjord panorama in wide cinematic framing. Crystal clear air, natural depth of field with sharp focus on subject and soft background mountains. Shot during magic hour with natural sunlight creating perfect skin tones and authentic colors. Professional automotive photography meets landscape photography. Camera settings: f/8 for landscape depth, ISO 200, natural color grading mimicking Fujifilm Velvia film stock for enhanced but natural saturation.
+
+=== КОРОТКАЯ ВЕРСИЯ ===
+
+Professional photograph from elevated angle, person in luxury vintage convertible on Norwegian fjord cliff, dramatic ocean and mountain landscape, golden hour lighting, Italian casual style, premium flip-flops, wide cinematic composition, Canon camera quality
+
+=== МАКСИМАЛЬНАЯ ДЕТАЛИЗАЦИЯ ===
+
+Cinematic automotive and landscape photography masterpiece captured with high-end medium format camera. Elevated three-quarter angle view showing elegant individual relaxed in meticulously restored vintage convertible positioned dramatically on grass-covered cliff overlooking spectacular Norwegian fjord system. The subject embodies effortless Italian luxury: flowing linen shirt in natural tones, perfectly tailored casual shorts, feet adorned with artisanal leather flip-flops from exclusive European luxury brands - visible craftsmanship and premium materials. The classic convertible represents automotive perfection: mirror-polished chrome bumpers, hand-stitched leather interior in rich cognac, pristine paint reflecting the Nordic light, top down revealing elegant interior details. Behind spreads one of Norway's most dramatic fjord landscapes: glacier-carved valleys filled with deep sapphire waters, vertical cliff faces rising thousands of feet, carpets of vibrant green grass and wildflowers, distant peaks crowned with snow even in summer. The sky showcases typical Nordic dramatic weather: massive white and grey clouds creating natural light patterns, golden hour sun breaking through creating dramatic lighting on water surface. Composition balances human subject with overwhelming natural grandeur. Camera work captures authentic automotive photography aesthetics combined with landscape photography techniques. Natural lighting conditions typical of Scandinavian summer evenings, when sun never fully sets. Color palette emphasizes natural Nordic tones: deep blues of fjord water, emerald greens of grass, warm golden light, natural skin tones enhanced by perfect lighting. Professional retouching maintains authentic photographic qualities while enhancing natural beauty.
+
+=== SUNSET VERSION ===
+
+Golden hour automotive photography, vintage convertible on Norwegian cliff at sunset, warm orange and pink sky reflecting in fjord waters, dramatic Nordic landscape, person in casual Italian luxury style with premium flip-flops, elevated camera angle, cinematic wide shot, natural lighting, professional quality
+
+=== БЛИЗКИЙ ПЛАН (АВТОМОБИЛЬНЫЙ ФОКУС) ===
+
+Professional automotive photography, close-up of vintage convertible interior with relaxed person wearing Italian casual luxury and designer flip-flops, Norwegian fjord landscape visible in background, elevated angle, dramatic cliff setting, golden hour lighting, premium leather seats and chrome details
+
+=== ПЕЙЗАЖНЫЙ АКЦЕНТ ===
+
+Wide angle landscape photography with vintage convertible as elegant foreground element, person in luxury casual wear, breathtaking Norwegian fjord panorama, dramatic cliffs and deep blue waters, emerald grass, dramatic Nordic sky with clouds, golden hour lighting, elevated perspective, cinematic composition
+
+=== СТИЛЬ АВТОМОБИЛЬНОЙ РЕКЛАМЫ ===
+
+Premium automotive advertisement photography, luxury vintage convertible positioned on dramatic Norwegian fjord cliff, sophisticated person in Italian casual style with exclusive flip-flops, breathtaking Nordic landscape background, professional lighting setup, elevated camera angle, commercial photography quality, natural golden hour illumination
+
+=== NEGATIVE PROMPTS ===
+
+plastic car parts, artificial lighting, oversaturated colors, tourist photography, cheap flip-flops, modern casual wear, crowded scene, bad weather, artificial poses, smartphone quality, digital art look, anime style, unrealistic proportions, blurry background, poor composition, tacky styling
+
+=== ТЕХНИЧЕСКИЕ НАСТРОЙКИ ===
+
+- Aspect Ratio: 16:9 (кинематографично) или 3:2 (классично)
+- Camera Height: Elevated angle, approximately 8-10 feet above car level
+- Focal Length: Wide to medium (24-70mm equivalent)
+- Depth of Field: f/8 for landscape sharpness
+- Lighting: Natural golden hour, warm tones
+- Style: Automotive + landscape photography hybrid
+
+=== МОДИФИКАТОРЫ ПО ВРЕМЕНИ СЪЁМКИ ===
+
+ЗАКАТ: + "warm sunset colors, orange and pink sky, golden reflections on water"
+РАССВЕТ: + "soft dawn light, misty fjord atmosphere, cool morning tones"
+ПОЛДЕНЬ: + "bright Nordic daylight, vivid colors, dramatic cloud shadows"
+СУМЕРКИ: + "blue hour lighting, dramatic sky, car headlights subtly illuminated"
+
+=== МОДИФИКАТОРЫ ПО СТИЛЮ ===
+
+РЕТРО ВИНТАЖ: + "1960s automotive photography style, film grain, vintage color grading"
+СОВРЕМЕННАЯ РОСКОШЬ: + "contemporary luxury lifestyle photography, pristine details, modern elegance"
+ПРИКЛЮЧЕНЧЕСКИЙ: + "adventure photography aesthetic, wind-blown hair, sense of journey"
+МИНИМАЛИСТСКИЙ: + "clean composition, minimal elements, focus on car and landscape harmony"
+
+=== АЛЬТЕРНАТИВНЫЕ ВАРИАНТЫ КАБРИОЛЕТА ===
+
+КЛАССИЧЕСКИЙ СПОРТКАР: "vintage Porsche 911 convertible" / "classic Jaguar E-Type roadster"
+ИТАЛЬЯНСКАЯ КЛАССИКА: "vintage Ferrari convertible" / "classic Alfa Romeo spider"
+АМЕРИКАНСКАЯ КЛАССИКА: "vintage Ford Mustang convertible" / "classic Chevrolet Corvette"
+БРИТАНСКАЯ ЭЛЕГАНТНОСТЬ: "vintage Aston Martin convertible" / "classic Morgan roadster"
+
+=== СОВЕТЫ ПО ИСПОЛЬЗОВАНИЮ ===
+
+1. Начните с короткой версии для теста композиции
+2. Для лучших результатов добавьте конкретную модель кабриолета
+3. Время суток сильно влияет на атмосферу - выберите подходящий модификатор
+4. Упоминание "elevated angle" ключевое для правильной композиции
+5. "Professional automotive photography" даёт лучший результат чем просто "car photo" 

@@ -1,0 +1,115 @@
+# 🎬 МАСТЕР-ПРОМПТ: МАКСИМАЛЬНАЯ ДЕТАЛИЗАЦИЯ
+## Единый стиль для всех сцен музыкального видео
+
+*Создано для поддержания консистентности образа при смене сцен и планов*
+
+---
+
+## 🎯 БАЗОВЫЙ ПЕРСОНАЖ (Неизменная основа)
+
+```
+32-year-old athletic tennis player, tall 193cm height, sporty muscular build with perfect anatomical proportions, short curly bleached blonde hair (rapper style, voluminous, chemically treated, each strand individually rendered), strong masculine facial features with natural asymmetry, piercing intelligent blue eyes with realistic moisture, studio light reflections, and detailed iris patterns, ultra-detailed facial anatomy with every micro-expression muscle visible, natural skin texture with every visible pore individually rendered, individual skin cells with realistic surface irregularities, micro-texture skin surface with natural oil distribution, zero blur on face with razor-sharp facial focus, every wrinkle and expression line perfectly defined with natural depth, detailed skin imperfections including natural blemishes, freckles, and pore variations, realistic skin subsurface scattering with light penetrating multiple skin layers, natural skin tone variations with accurate color temperature response, micro-shadows between individual hair follicles, detailed beard texture with each hair strand having unique color variation under studio lighting, natural masculine jawline definition with accurate bone structure, confident millionaire expression with natural micro-expressions, sophisticated body language reflecting elite status
+```
+
+---
+
+## 🎨 МАКСИМАЛЬНАЯ ДЕТАЛИЗАЦИЯ (Техническое качество)
+
+```
+Shot on RED Komodo 6K camera with Zeiss Master Prime 85mm lens, professional cinematography with film-grade color science, hyperrealistic 8k portrait quality with 16-bit color depth, professional color grading with cinema-grade LUTs, natural color reproduction with CRI 98+ lighting accuracy, zero digital artifacts with organic film grain structure, masterpiece quality with museum-grade detail preservation, ultra detailed with microscopic texture rendering, highly detailed with individual fiber visibility on all materials, sharp focus with optical perfection across entire frame, 8k uhd resolution with native sensor detail, high resolution capture with zero interpolation, detailed surface textures with tactile realism, intricate details visible at pixel level, perfect composition following golden ratio principles, cinematic aspect ratio with professional framing, studio-grade quality with commercial production standards, hyperrealistic rendering with photographic accuracy, natural skin texture with pore-level detail, realistic moisture distribution on skin surface, professional post-production with Hollywood-grade finishing
+```
+
+---
+
+## 💡 ПРОФЕССИОНАЛЬНОЕ ОСВЕЩЕНИЕ (Студийная установка)
+
+```
+Professional multi-point studio lighting setup with synchronized color temperature, high CRI 98+ color rendering index for natural skin tone accuracy, perfectly balanced three-point lighting configuration (key light, fill light, rim light), natural shadow gradation with realistic light falloff, soft box diffused key lighting with wrap-around quality, professional photography lighting equipment with precision control, studio-grade color accuracy with zero color cast, natural skin tone rendering with medical-grade precision, realistic shadow depth with atmospheric perspective, highlight detail preservation with HDR-quality dynamic range, authentic color reproduction with spectral accuracy, natural skin color variations under high CRI illumination, micro-shadows creating three-dimensional depth, volumetric lighting through atmospheric particles, dramatic rim lighting creating edge separation, cinematic lighting design with film-noir influence, atmospheric fog with controlled density, light beams with realistic scattering properties, professional lighting ratios with artistic balance
+```
+
+---
+
+## 👔 ПРЕМИУМ СТАЙЛИНГ (Luxury Fashion)
+
+```
+Luxury tailored clothing with Italian designer precision, premium fabric textures visible at thread level, expensive materials (virgin wool, silk, cashmere) with natural drape physics, perfect fit emphasizing athletic build with custom tailoring, elegant lapels with hand-stitched construction details, luxury buttons with precious metal finishing, sophisticated color coordination with professional styling, high-end fashion photography aesthetic with editorial quality, elite millionaire styling with understated luxury, natural masculine confidence in posture and expression, sophisticated fabric interaction with lighting, premium material processing with realistic surface properties, luxury brand quality with attention to construction details, expensive accessory coordination with precious metals, sophisticated color palette with rich material depth
+```
+
+---
+
+## 🎬 СМЕНЯЕМЫЕ ЭЛЕМЕНТЫ (Для разных сцен)
+
+### 📍 ЛОКАЦИЯ (выбрать одну):
+- `atmospheric luxury garage with dusty premium cars, vintage automobiles (Ferrari, Lamborghini, Porsche), authentic dust layers with cat paw prints`
+- `urban street scene with neon reflections, city lights, atmospheric rain effects`
+- `luxury penthouse interior with floor-to-ceiling windows, city skyline background`
+- `professional recording studio with high-end equipment, atmospheric mood lighting`
+
+### 📸 ПЛАН СЪЕМКИ (выбрать один):
+- `close-up portrait composition with shallow depth of field, 85mm macro lens equivalent`
+- `medium shot composition showing upper body and environment, 50mm lens equivalent`
+- `wide shot composition with full environmental context, 35mm lens equivalent`
+
+### 🎨 ЦВЕТОВАЯ СХЕМА (выбрать одну):
+- `deep blue tech-noir, electric blue, gold accents, neon purple highlights, emerald green undertones`
+- `warm golden hour tones, amber highlights, deep shadows, bronze accents`
+- `monochromatic black and white with selective color highlights`
+- `cyberpunk neon palette with pink, blue, purple, and electric green`
+
+---
+
+## 🚫 НЕГАТИВНЫЕ ПРОМПТЫ (Обязательно добавлять)
+
+```
+poor quality, low resolution, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, bad feet, mutated, extra limbs, ugly, poorly drawn, out of frame, tiling, poorly drawn hands, grainy, inconsistent lighting, varying quality, amateur photography, digital artifacts, oversaturated colors, unnatural skin tones, plastic skin, artificial lighting, harsh shadows, blown highlights, color banding, noise, compression artifacts, low dynamic range, poor color grading, unnatural proportions, distorted features, asymmetrical eyes, uneven skin texture, patchy lighting, color cast, overexposure, underexposure
+```
+
+---
+
+## 📋 ИНСТРУКЦИЯ ПО ИСПОЛЬЗОВАНИЮ
+
+### 🔄 **СОЗДАНИЕ ПРОМПТА:**
+1. **Базовый персонаж** - копировать всегда
+2. **Максимальная детализация** - копировать всегда  
+3. **Профессиональное освещение** - копировать всегда
+4. **Премиум стайлинг** - копировать всегда
+5. **Сменяемые элементы** - выбрать по одному из каждой категории
+6. **Негативные промпты** - добавить в конце
+
+### ⚡ **БЫСТРЫЕ КОМБИНАЦИИ:**
+
+#### 🏎️ ГАРАЖ + КРУПНЫЙ ПЛАН
+```
+[БАЗОВЫЙ ПЕРСОНАЖ] + [ДЕТАЛИЗАЦИЯ] + [ОСВЕЩЕНИЕ] + [СТАЙЛИНГ] + atmospheric luxury garage with dusty premium cars, vintage automobiles (Ferrari, Lamborghini, Porsche), authentic dust layers with cat paw prints + close-up portrait composition with shallow depth of field, 85mm macro lens equivalent + deep blue tech-noir, electric blue, gold accents, neon purple highlights, emerald green undertones + [НЕГАТИВЫ]
+```
+
+#### 🌃 УЛИЦА + СРЕДНИЙ ПЛАН  
+```
+[БАЗОВЫЙ ПЕРСОНАЖ] + [ДЕТАЛИЗАЦИЯ] + [ОСВЕЩЕНИЕ] + [СТАЙЛИНГ] + urban street scene with neon reflections, city lights, atmospheric rain effects + medium shot composition showing upper body and environment, 50mm lens equivalent + cyberpunk neon palette with pink, blue, purple, and electric green + [НЕГАТИВЫ]
+```
+
+---
+
+## 📊 ТЕХНИЧЕСКИЕ ПАРАМЕТРЫ
+
+- **Камера:** RED Komodo 6K / Sony FX9
+- **Объектив:** Zeiss Master Prime 85mm / 50mm / 35mm
+- **Разрешение:** 8K UHD (7680×4320)
+- **Цветовая глубина:** 16-bit
+- **Формат:** Cinema 4K / UHD
+- **Постобработка:** Cinema-grade color grading
+
+---
+
+## 🎯 РЕЗУЛЬТАТ
+
+**Единый стиль с максимальной детализацией для всех сцен музыкального видео!**
+
+- ✅ Консистентность персонажа
+- ✅ Филмовое качество  
+- ✅ Детализация до уровня волосков
+- ✅ Профессиональное освещение
+- ✅ Премиум стайлинг
+- ✅ Гибкость смены сцен
+
+**ГОТОВО ДЛЯ СОЗДАНИЯ СЕРИИ ИЗОБРАЖЕНИЙ!** 🎬✨ 

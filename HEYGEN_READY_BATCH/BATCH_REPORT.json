@@ -1,0 +1,155 @@
+{
+  "total_mixes": 20,
+  "successful": 20,
+  "failed": 0,
+  "output_folder": "HEYGEN_READY_BATCH",
+  "results": [
+    {
+      "mix_id": 1,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_01",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_01/audio_01.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_01/photo_01.png"
+    },
+    {
+      "mix_id": 2,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_02",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_02/audio_02.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_02/photo_02.jpg"
+    },
+    {
+      "mix_id": 3,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_03",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_03/audio_03.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_03/photo_03.jpg"
+    },
+    {
+      "mix_id": 4,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_04",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_04/audio_04.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_04/photo_04.png"
+    },
+    {
+      "mix_id": 5,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_05",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_05/audio_05.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_05/photo_05.jpg"
+    },
+    {
+      "mix_id": 6,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_06",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_06/audio_06.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_06/photo_06.jpg"
+    },
+    {
+      "mix_id": 7,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_07",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_07/audio_07.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_07/photo_07.jpg"
+    },
+    {
+      "mix_id": 8,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_08",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_08/audio_08.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_08/photo_08.jpg"
+    },
+    {
+      "mix_id": 9,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_09",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_09/audio_09.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_09/photo_09.jpg"
+    },
+    {
+      "mix_id": 10,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_10",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_10/audio_10.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_10/photo_10.jpg"
+    },
+    {
+      "mix_id": 11,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_11",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_11/audio_11.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_11/photo_11.png"
+    },
+    {
+      "mix_id": 12,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_12",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_12/audio_12.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_12/photo_12.png"
+    },
+    {
+      "mix_id": 13,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_13",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_13/audio_13.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_13/photo_13.jpg"
+    },
+    {
+      "mix_id": 14,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_14",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_14/audio_14.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_14/photo_14.jpg"
+    },
+    {
+      "mix_id": 15,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_15",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_15/audio_15.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_15/photo_15.png"
+    },
+    {
+      "mix_id": 16,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_16",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_16/audio_16.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_16/photo_16.jpg"
+    },
+    {
+      "mix_id": 17,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_17",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_17/audio_17.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_17/photo_17.png"
+    },
+    {
+      "mix_id": 18,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_18",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_18/audio_18.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_18/photo_18.png"
+    },
+    {
+      "mix_id": 19,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_19",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_19/audio_19.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_19/photo_19.jpg"
+    },
+    {
+      "mix_id": 20,
+      "status": "ready",
+      "folder": "HEYGEN_READY_BATCH/heygen_mix_20",
+      "audio": "HEYGEN_READY_BATCH/heygen_mix_20/audio_20.wav",
+      "photo": "HEYGEN_READY_BATCH/heygen_mix_20/photo_20.png"
+    }
+  ],
+  "next_steps": [
+    "1. Открой каждую папку heygen_mix_XX",
+    "2. Загрузи файлы в HeyGen",
+    "3. Генерируй видео с настройками из JSON",
+    "4. Скачай результаты",
+    "5. Создай вирусный контент!"
+  ]
+}

@@ -1,0 +1,48 @@
+# 🗽 НЬЮ-ЙОРК ТОЛПА - Улучшенная Версия
+## Максимальная детализация лица + естественность
+
+---
+
+## 🎬 ОБНОВЛЕННЫЙ TELEGRAM ПРОМПТ (3,996 символов)
+
+```
+32-year-old athletic tennis player, tall 193cm height, sporty muscular build, short curly hair (rapper style, voluminous, textured, each strand individually rendered with natural movement), strong masculine facial features with natural asymmetry and character lines, piercing intelligent blue eyes with ultra-realistic moisture distribution, individual tear duct detail, visible capillaries in eye whites, detailed iris patterns with individual color flecks and depth variation, realistic pupil dilation response, worried concentrated expression looking up toward camera with authentic concern, ultra-detailed facial anatomy with every micro-expression muscle visible, natural skin texture with every visible pore individually rendered at microscopic level, individual skin cells with realistic surface irregularities and natural oil distribution, micro-texture skin surface with authentic skin grain pattern, zero artificial blur on face with razor-sharp facial focus throughout, every wrinkle and expression line perfectly defined with natural depth and shadowing, detailed skin imperfections including natural blemishes, freckles, minor scars, pore size variations, realistic skin subsurface scattering with light penetrating multiple skin layers creating natural translucency, natural skin tone variations with accurate color temperature response, micro-shadows between individual hair follicles creating three-dimensional facial hair depth, detailed beard texture with each hair strand having unique color variation under natural lighting, natural masculine jawline definition with accurate bone structure, sophisticated body language showing determination while navigating through crowd, bright colorful music video style clothing with vibrant designer streetwear, premium fabric textures with bold colors and patterns, expensive urban fashion materials with natural drape physics, perfect fit emphasizing athletic build, contemporary street style with luxury brand elements, high-end sneakers with detailed textures, sophisticated color coordination with bright accent colors, cinematic wide shot composition from elevated drone perspective capturing crowd dynamics, moving through dense New York City crowd during golden hour sunset, bustling Manhattan street scene with hundreds of people creating authentic urban density, realistic human crowd with diverse individuals pressed together like subway rush hour, authentic NYC street environment with iconic yellow taxis and urban details, towering skyscrapers creating urban canyon effect with natural perspective, classic New York architecture with fire escapes and brownstone details, busy crosswalk with authentic pedestrian traffic patterns, street vendors and realistic urban infrastructure, natural crowd dynamics with authentic human movement and interaction, golden hour lighting with warm sunset glow filtering through buildings creating natural color temperature, dramatic urban shadows with cinematic light rays and realistic contrast, volumetric atmospheric haze typical of NYC streets with natural air density, authentic street lighting beginning to activate with realistic illumination, warm amber tones mixing with cool blue shadows creating natural color balance, shot on RED Komodo 6K camera with DJI Inspire 3 drone cinematography, professional aerial cinematography with smooth gimbal movement, hyperrealistic 8k cinematic quality with 16-bit color depth, professional color grading with cinema-grade LUTs optimized for urban scenes, natural color reproduction with CRI 98+ lighting accuracy, zero digital artifacts with organic film grain structure, masterpiece quality with documentary-grade detail preservation, ultra detailed with microscopic texture rendering on clothing and skin, sharp focus with optical perfection, detailed urban textures with authentic weathering, time-lapse photography aesthetic with motion blur on crowd while subject remains sharp, professional urban cinematography with authentic NYC atmosphere
+```
+
+---
+
+## 🎯 КЛЮЧЕВЫЕ УЛУЧШЕНИЯ
+
+### 👁️ **ДЕТАЛИЗАЦИЯ ГЛАЗ:**
+- Ультра-реалистичная влажность
+- Индивидуальные капилляры в белках глаз  
+- Детальные узоры радужки с цветовыми вкраплениями
+- Реалистичная реакция зрачков
+- Естественные отражения студийного света
+
+### 🧔 **ДЕТАЛИЗАЦИЯ КОЖИ:**
+- Каждая пора прорисована микроскопически
+- Индивидуальные клетки кожи
+- Естественные неровности поверхности
+- Аутентичная зернистость кожи
+- Реалистичное подповерхностное рассеивание света
+
+### 💇 **ВОЛОСЫ БЕЗ ЦВЕТА:**
+- ❌ Убрано: `bleached blonde hair`
+- ❌ Убрано: `chemically treated`
+- ✅ Добавлено: `textured, natural movement`
+- ✅ Добавлено: `each strand individually rendered`
+
+### 💡 **ОСВЕЩЕНИЕ:**
+- Медицинская точность (CRI 98+)
+- Естественные тени и блики
+- Реалистичное поведение света
+- Атмосферная перспектива
+
+---
+
+## 🚀 ГОТОВ К ИСПОЛЬЗОВАНИЮ
+
+**Промпт готов для копирования в Telegram бот!**
+
+**МАКСИМАЛЬНАЯ ДЕТАЛИЗАЦИЯ ЛИЦА + ЕСТЕСТВЕННОСТЬ!** 🗽🎬✨ 

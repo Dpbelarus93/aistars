@@ -1,3 +1,72 @@
+# Медиафайлы и рабочие материалы
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.avi
+*.mkv
+*.flv
+*.webm
+*.m4a
+*.aac
+
+# Рабочие директории с медиа
+ALL_TRACK_PHOTOS/
+VOICE_TRACKS/
+LIP_SYNC_*/
+video/
+audio/
+photos/
+нейрофото/
+нейрофото_8K_SIMPLE/
+логотипы/
+Фотографии/
+
+# Временные файлы
+*.log
+*.tmp
+downloaded_track.mp3
+final_clip.mov
+tmp_logo_src/
+misc/
+rap_10sec_segments/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.env
+.env.example
+
+# IDE и системные файлы
+.idea/
+.vscode/
+*.swp
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Специфичные для проекта временные файлы и директории
+data/
+tmp/
+cache/
+output/
+results/
+downloads/
+
+# Локальные конфигурации
+Конфигурационные файлы/
+config.local.json
+settings.local.yaml
+
 # Python
 __pycache__/
 *.py[cod]

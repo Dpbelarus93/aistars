@@ -1,0 +1,39 @@
+# РАБОЧИЕ ПРАВИЛА ПРОМПТ-ИНЖЕНЕРИИ
+
+## TELEGRAM ЛИМИТ
+- Максимум 4096 символов
+- Всегда проверять длину командой `wc -c`
+- Сокращать без потери детализации
+
+## БАЗОВЫЕ БЛОКИ ПРОМПТА
+
+### АНАТОМИЯ (ВСЕГДА)
+athletic tennis player 193cm, curly hair, masculine features
+
+### ДЕТАЛИЗАЦИЯ ЛИЦА (ВСЕГДА)
+piercing blue eyes ultra-realistic moisture visible capillaries, detailed iris color flecks pupil response, ultra-detailed facial anatomy micro-expression muscles, natural skin texture every pore microscopic level, individual skin cells surface irregularities, micro-texture skin grain, zero blur razor-sharp focus, wrinkles expression lines natural depth, skin imperfections blemishes freckles scars, subsurface scattering light penetrating skin layers, micro-shadows hair follicles 3D depth, detailed beard texture strand color variation, masculine jawline bone structure
+
+### ТЕХНИЧЕСКОЕ КАЧЕСТВО (ВСЕГДА)
+RED Komodo 6K, hyperrealistic 8k 16-bit color, professional grading cinema LUTs, CRI 98+ accuracy, zero artifacts organic grain, masterpiece documentary detail, ultra detailed microscopic texture, sharp focus optical perfection
+
+### ОСВЕЩЕНИЕ (ВСЕГДА)
+professional lighting, soft key lighting diffusion, volumetric lighting atmospheric, realistic shadow patterns, cinematic composition
+
+## АЛГОРИТМ
+1. Анатомия + детализация лица + техническое качество + освещение
+2. Добавить конкретную сцену
+3. Проверить символы `wc -c`
+4. Сократить если нужно
+5. Выдать в кодовом блоке
+
+## ФОРМАТ ВЫДАЧИ
+```
+промпт здесь
+```
+
+## ЧТО МЕНЯТЬ ПО СЦЕНАМ
+- Одежда, локация, настроение, композиция
+- НЕ МЕНЯТЬ: детализацию лица, техническое качество, анатомию
+
+## КРАТКОСТЬ
+Убирать лишние слова, объединять описания, использовать сокращения 
