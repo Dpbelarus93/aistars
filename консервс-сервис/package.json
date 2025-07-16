@@ -1,0 +1,53 @@
+{
+  "name": "conserv-service",
+  "version": "1.0.0",
+  "description": "Профессиональная платформа управления консервс-сервисом с AI-агентом",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run frontend:dev\" \"npm run backend:dev\" \"npm run ai-agent:dev\"",
+    "frontend:dev": "cd frontend && npm run dev",
+    "backend:dev": "cd backend && npm run dev",
+    "ai-agent:dev": "cd ai-agent && python src/main.py",
+    "build": "npm run frontend:build && npm run backend:build",
+    "frontend:build": "cd frontend && npm run build",
+    "backend:build": "cd backend && npm run build",
+    "start": "npm run backend:start",
+    "backend:start": "cd backend && npm start",
+    "test": "npm run test:frontend && npm run test:backend && npm run test:ai-agent",
+    "test:frontend": "cd frontend && npm test",
+    "test:backend": "cd backend && npm test",
+    "test:ai-agent": "cd ai-agent && python -m pytest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "migrate": "cd backend && npm run migrate",
+    "seed": "cd backend && npm run seed",
+    "setup": "npm run install:all && npm run migrate && npm run seed",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install && cd ../ai-agent && pip install -r requirements.txt"
+  },
+  "keywords": [
+    "conserv-service",
+    "business-management",
+    "ai-agent",
+    "automation",
+    "crm"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/conserv-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/conserv-service/issues"
+  },
+  "homepage": "https://github.com/your-username/conserv-service#readme"
+}
