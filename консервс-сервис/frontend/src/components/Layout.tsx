@@ -11,7 +11,13 @@ import {
   BarChart3, 
   Menu, 
   X, 
-  LogOut 
+  LogOut,
+  Package,
+  Users,
+  HelpCircle,
+  BookOpen,
+  Settings,
+  MapPin
 } from 'lucide-react';
 
 interface LayoutProps {
@@ -32,13 +38,36 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   const menuItems = [
     { path: '/', label: 'Дашборд', icon: Home },
+    { path: '/services', label: 'Услуги', icon: Package },
     { path: '/orders', label: 'Заказы', icon: ShoppingCart },
+    { path: '/partners', label: 'Партнеры', icon: Users },
     { path: '/chat', label: 'Чат', icon: MessageCircle },
+    { path: '/support', label: 'Поддержка', icon: HelpCircle },
+    { path: '/faq', label: 'FAQ', icon: BookOpen },
     { path: '/profile', label: 'Профиль', icon: User },
     ...(user?.role === 'MANAGER' || user?.role === 'ADMIN' 
-      ? [{ path: '/analytics', label: 'Аналитика', icon: BarChart3 }] 
+      ? [
+          { path: '/analytics', label: 'Аналитика', icon: BarChart3 },
+          { path: '/locations', label: 'Локации', icon: MapPin },
+        ] 
+      : []),
+    ...(user?.role === 'ADMIN' 
+      ? [
+          { path: '/settings', label: 'Настройки', icon: Settings },
+        ] 
       : []),
   ];
+
+  const getRoleText = (role: string) => {
+    switch (role) {
+      case 'CLIENT': return 'Клиент';
+      case 'CONTRACTOR': return 'Исполнитель';
+      case 'MANAGER': return 'Менеджер';
+      case 'ADMIN': return 'Администратор';
+      case 'PARTNER': return 'Партнер';
+      default: return role;
+    }
+  };
 
   return (
     <div className="flex h-screen bg-gray-100">
@@ -56,7 +85,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
           </button>
         </div>
         
-        <nav className="mt-4 px-2">
+        <nav className="mt-4 px-2 flex-1 overflow-y-auto">
           {menuItems.map((item) => {
             const Icon = item.icon;
             const isActive = location.pathname === item.path;
@@ -87,7 +116,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
             </div>
             <div>
               <p className="text-sm font-medium text-gray-900">{user?.name}</p>
-              <p className="text-xs text-gray-500">{user?.role}</p>
+              <p className="text-xs text-gray-500">{getRoleText(user?.role || '')}</p>
             </div>
           </div>
           <button
