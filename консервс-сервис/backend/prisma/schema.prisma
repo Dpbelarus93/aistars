@@ -1,0 +1,276 @@
+// Схема базы данных для консервс-сервиса
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Модель пользователя
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  firstName String
+  lastName  String
+  phone     String?
+  avatar    String?
+  role      UserRole @default(CLIENT)
+  status    UserStatus @default(ACTIVE)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Отношения
+  clientOrders  Order[]     @relation("ClientOrders")
+  managerOrders Order[]     @relation("ManagerOrders")
+  messages      Message[]
+  chatSessions  ChatSession[]
+  notifications Notification[]
+  
+  @@map("users")
+}
+
+// Роли пользователей
+enum UserRole {
+  CLIENT      // Клиент
+  MANAGER     // Менеджер
+  CONTRACTOR  // Подрядчик
+  ADMIN       // Администратор
+}
+
+// Статус пользователя
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+  BLOCKED
+}
+
+// Модель заказа/заявки
+model Order {
+  id          String      @id @default(cuid())
+  title       String
+  description String
+  category    String
+  priority    OrderPriority @default(MEDIUM)
+  status      OrderStatus @default(PENDING)
+  budget      Float?
+  currency    String      @default("USD")
+  deadline    DateTime?
+  location    String?
+  
+  // Связи с пользователями
+  clientId    String
+  client      User        @relation("ClientOrders", fields: [clientId], references: [id])
+  managerId   String?
+  manager     User?       @relation("ManagerOrders", fields: [managerId], references: [id])
+  
+  // Временные метки
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  completedAt DateTime?
+  
+  // Отношения
+  messages    Message[]
+  files       OrderFile[]
+  payments    Payment[]
+  reviews     Review[]
+  
+  @@map("orders")
+}
+
+// Приоритет заказа
+enum OrderPriority {
+  LOW
+  MEDIUM
+  HIGH
+  URGENT
+}
+
+// Статус заказа
+enum OrderStatus {
+  PENDING       // В ожидании
+  ASSIGNED      // Назначен менеджер
+  IN_PROGRESS   // В процессе
+  COMPLETED     // Завершен
+  CANCELLED     // Отменен
+  ON_HOLD       // Приостановлен
+}
+
+// Модель сообщений
+model Message {
+  id        String      @id @default(cuid())
+  content   String
+  type      MessageType @default(TEXT)
+  isFromAI  Boolean     @default(false)
+  
+  // Связи
+  userId    String
+  user      User        @relation(fields: [userId], references: [id])
+  orderId   String?
+  order     Order?      @relation(fields: [orderId], references: [id])
+  sessionId String?
+  session   ChatSession? @relation(fields: [sessionId], references: [id])
+  
+  // Временные метки
+  createdAt DateTime    @default(now())
+  readAt    DateTime?
+  
+  @@map("messages")
+}
+
+// Тип сообщения
+enum MessageType {
+  TEXT
+  IMAGE
+  FILE
+  VOICE
+  SYSTEM
+}
+
+// Модель чат-сессий
+model ChatSession {
+  id        String   @id @default(cuid())
+  title     String?
+  isActive  Boolean  @default(true)
+  
+  // Связи
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  messages  Message[]
+  
+  // Временные метки
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  endedAt   DateTime?
+  
+  @@map("chat_sessions")
+}
+
+// Модель файлов заказа
+model OrderFile {
+  id        String   @id @default(cuid())
+  filename  String
+  originalName String
+  path      String
+  size      Int
+  mimeType  String
+  
+  // Связи
+  orderId   String
+  order     Order    @relation(fields: [orderId], references: [id])
+  
+  // Временные метки
+  createdAt DateTime @default(now())
+  
+  @@map("order_files")
+}
+
+// Модель платежей
+model Payment {
+  id            String        @id @default(cuid())
+  amount        Float
+  currency      String        @default("USD")
+  status        PaymentStatus @default(PENDING)
+  method        String        // stripe, paypal, etc.
+  transactionId String?
+  
+  // Связи
+  orderId       String
+  order         Order         @relation(fields: [orderId], references: [id])
+  
+  // Временные метки
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+  paidAt        DateTime?
+  
+  @@map("payments")
+}
+
+// Статус платежа
+enum PaymentStatus {
+  PENDING
+  COMPLETED
+  FAILED
+  REFUNDED
+}
+
+// Модель отзывов
+model Review {
+  id        String   @id @default(cuid())
+  rating    Int      // 1-5
+  comment   String?
+  
+  // Связи
+  orderId   String   @unique
+  order     Order    @relation(fields: [orderId], references: [id])
+  
+  // Временные метки
+  createdAt DateTime @default(now())
+  
+  @@map("reviews")
+}
+
+// Модель уведомлений
+model Notification {
+  id        String           @id @default(cuid())
+  title     String
+  message   String
+  type      NotificationType @default(INFO)
+  isRead    Boolean          @default(false)
+  
+  // Связи
+  userId    String
+  user      User             @relation(fields: [userId], references: [id])
+  
+  // Временные метки
+  createdAt DateTime         @default(now())
+  readAt    DateTime?
+  
+  @@map("notifications")
+}
+
+// Тип уведомления
+enum NotificationType {
+  INFO
+  SUCCESS
+  WARNING
+  ERROR
+  ORDER_UPDATE
+  PAYMENT_UPDATE
+  MESSAGE_RECEIVED
+}
+
+// Модель для хранения знаний AI-агента
+model AIKnowledge {
+  id        String   @id @default(cuid())
+  question  String
+  answer    String
+  category  String
+  tags      String[]
+  
+  // Метрики
+  usageCount Int     @default(0)
+  rating     Float?
+  
+  // Временные метки
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@map("ai_knowledge")
+}
+
+// Модель для аналитики
+model Analytics {
+  id        String   @id @default(cuid())
+  event     String   // 'order_created', 'user_registered', etc.
+  data      Json
+  userId    String?
+  sessionId String?
+  
+  // Временные метки
+  createdAt DateTime @default(now())
+  
+  @@map("analytics")
+}
