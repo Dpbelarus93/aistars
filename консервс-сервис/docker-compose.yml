@@ -1,0 +1,159 @@
+version: '3.8'
+
+services:
+  # Frontend сервис
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - REACT_APP_API_URL=http://localhost:3001
+      - REACT_APP_WS_URL=ws://localhost:3001
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    networks:
+      - conserv-network
+
+  # Backend сервис
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=development
+      - DATABASE_URL=postgresql://conserv_user:conserv_password@database:5432/conserv_service
+      - REDIS_URL=redis://redis:6379
+      - JWT_SECRET=your-jwt-secret-key
+      - AI_AGENT_URL=http://ai-agent:8000
+    depends_on:
+      - database
+      - redis
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    networks:
+      - conserv-network
+
+  # AI-Agent сервис
+  ai-agent:
+    build:
+      context: ./ai-agent
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app
+      - DATABASE_URL=postgresql://conserv_user:conserv_password@database:5432/conserv_service
+      - REDIS_URL=redis://redis:6379
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    depends_on:
+      - database
+      - redis
+    volumes:
+      - ./ai-agent:/app
+    networks:
+      - conserv-network
+
+  # PostgreSQL база данных
+  database:
+    image: postgres:14-alpine
+    environment:
+      POSTGRES_DB: conserv_service
+      POSTGRES_USER: conserv_user
+      POSTGRES_PASSWORD: conserv_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - conserv-network
+
+  # Redis для кэширования
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - conserv-network
+
+  # pgAdmin для управления базой данных
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@conserv.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - database
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    networks:
+      - conserv-network
+
+  # Nginx для проксирования
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/ssl:/etc/nginx/ssl
+    depends_on:
+      - frontend
+      - backend
+      - ai-agent
+    networks:
+      - conserv-network
+
+  # Мониторинг с Prometheus
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    networks:
+      - conserv-network
+
+  # Grafana для визуализации метрик
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3030:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana/dashboards:/var/lib/grafana/dashboards
+    depends_on:
+      - prometheus
+    networks:
+      - conserv-network
+
+# Volumes для постоянного хранения данных
+volumes:
+  postgres_data:
+  redis_data:
+  pgadmin_data:
+  prometheus_data:
+  grafana_data:
+
+# Сеть для связи между сервисами
+networks:
+  conserv-network:
+    driver: bridge

@@ -1,0 +1,73 @@
+{
+  "name": "conserv-service-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Фронтенд мини-приложения для консервс-сервиса",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "@reduxjs/toolkit": "^1.9.3",
+    "react-redux": "^8.0.5",
+    "react-query": "^3.39.3",
+    "axios": "^1.3.4",
+    "tailwindcss": "^3.2.7",
+    "lucide-react": "^0.320.0",
+    "framer-motion": "^10.0.0",
+    "react-hook-form": "^7.43.5",
+    "yup": "^1.0.2",
+    "@hookform/resolvers": "^2.9.11",
+    "react-toastify": "^9.1.1",
+    "date-fns": "^2.29.3",
+    "recharts": "^2.5.0",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0",
+    "typescript": "^4.9.5",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "eslint": "^8.36.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "prettier": "^2.8.4",
+    "vitest": "^0.29.1",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^14.4.3"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint src --ext ts,tsx --fix",
+    "format": "prettier --write src/**/*.{ts,tsx,css,md}",
+    "type-check": "tsc --noEmit"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
